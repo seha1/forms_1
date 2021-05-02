@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="form__content">
+        <span class="description">form for sending data from the site</span>
+        <form class="form" action="#" method="post">
+            <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="firstName" autocomplete="off" placeholder="Adam..." />
+
+            <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="lasName" autocomplete="off" placeholder="Smith..." />
+
+            <label for="e-mail">E-mail</label>
+                <input type="email" id="e-mail" name="eMail" placeholder="adamsmith@adamsmith.web.com..." />
+
+            <label for="text-area">Message </label>
+                <textarea  id="text-area" name="textArea" placeholder="Message..."></textarea>
+
+            <div class="btn">
+                <button type="submit" id="submit" >Submit</button>
+                <button type="reset" id="reset">Reset</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
